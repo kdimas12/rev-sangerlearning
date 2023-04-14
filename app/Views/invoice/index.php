@@ -43,12 +43,26 @@ $validation = \Config\Services::validation();
     <ul>
       <li>
         <p class="mb-0">BANK SYARIAH INDONESIA (BSI)</p>
-        <p class="mb-0 fw-bold">123 4567 890</p>
+        <div class="col-md-3">
+          <div class="input-group">
+            <input type="text" class="form-control fw-bold" value="123 4567 890" id="bsi" readonly>
+            <button class="input-group-text btn-copy" data-clipboard-target="#bsi">
+              <i class="fa-regular fa-clipboard"></i>
+            </button>
+          </div>
+        </div>
         <p class="fw-bold">a.n Sanger Learning</p>
       </li>
       <li>
         <p class="mb-0">BANK RAKYAT INDONESIA (BRI)</p>
-        <p class="mb-0 fw-bold">123 4567 890</p>
+        <div class="col-md-3">
+          <div class="input-group">
+            <input type="text" class="form-control fw-bold" value="123 4567 890" id="bri" readonly>
+            <button class="input-group-text btn-copy" data-clipboard-target="#bri">
+              <i class="fa-regular fa-clipboard"></i>
+            </button>
+          </div>
+        </div>
         <p class="fw-bold">a.n Sanger Learning</p>
       </li>
     </ul>
